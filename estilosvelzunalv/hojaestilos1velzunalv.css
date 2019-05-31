@@ -35,5 +35,12 @@
   border: 1px solid black;
   box-sizing: border-box;
 }
+.contenedorvelzunalv footer {
+  grid-column: 1/4;
+  min-height: 15vh;
+  background-color: blue;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
 
 /*# sourceMappingURL=hojaestilos1velzunalv.css.map */

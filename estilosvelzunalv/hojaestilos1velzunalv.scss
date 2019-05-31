@@ -33,4 +33,10 @@
         background-color: yellow;
         @include bordersgeneralesvelzunalv();
     }
+    footer {
+        grid-column: 1 / 4;
+        min-height: 15vh;
+        background-color: blue;
+        @include bordersgeneralesvelzunalv();
+    }
 }
