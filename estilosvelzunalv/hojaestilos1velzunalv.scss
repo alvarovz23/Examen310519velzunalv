@@ -1,5 +1,13 @@
+
+// Este mixin ya lo tenía creado, pero voy a crear otro diferente para el header, el main, los asides y el footer.
+
 @mixin bordersgeneralesvelzunalv() {
     border: 1px solid black;
+    box-sizing: border-box;
+}
+
+@mixin bordescolorvelzunalv() {
+    border: 1px solid greenyellow;
     box-sizing: border-box;
 }
 .contenedorvelzunalv {
@@ -14,31 +22,32 @@
         grid-column: 1 / 4;
         min-height: 25vh;
         background-color: aquamarine;
-        @include bordersgeneralesvelzunalv();
+        @include bordescolorvelzunalv();
+
     }
     main {
         grid-column: 1 /2;
         min-height: 60vh;
         background-color: bisque;
-        @include bordersgeneralesvelzunalv();
+        @include bordescolorvelzunalv();
     }
     .aside1 {
         grid-column: 2 /3;
         min-height: 60vh;
         background-color: plum;
-        @include bordersgeneralesvelzunalv();
+        @include bordescolorvelzunalv();
     }
     .aside2 {
         grid-column: 3 / 4;
         min-height: 60vh;
         background-color: yellow;
-        @include bordersgeneralesvelzunalv();
+        @include bordescolorvelzunalv();
     }
     footer {
         grid-column: 1 / 4;
         min-height: 15vh;
         background-color: blue;
-        @include bordersgeneralesvelzunalv();
+        @include bordescolorvelzunalv();
     }
     @media all and (max-width: 630px) {
         main, .aside1, .aside2 {
