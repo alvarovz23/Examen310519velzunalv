@@ -15,4 +15,11 @@
         background-color: aquamarine;
         @include bordersgeneralesvelzunalv();
     }
+    main {
+        grid-column: 1 /2;
+        min-height: 60vh;
+        background-color: bisque;
+        @include bordersgeneralesvelzunalv();
+
+    }
 }
