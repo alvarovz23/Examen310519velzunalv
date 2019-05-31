@@ -1,0 +1,18 @@
+.contenedorvelzunalv {
+  width: 90vw;
+  display: grid;
+  margin: 0 auto;
+  min-height: 25vh;
+  grid-template-columns: 60% 25% 15%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.contenedorvelzunalv header {
+  grid-column: 1/4;
+  min-height: 25vh;
+  background-color: aquamarine;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=hojaestilos1velzunalv.css.map */
